@@ -44,6 +44,11 @@ public class GameManager : MonoBehaviour
         gameManagerCount = instances.Length;
     }
 
+    public void LoadLevel(int index)
+    {
+        SceneManager.LoadScene(index);
+    }
+
     public void OnGUI()
     {
         GUI.Label(new Rect(10, 10, 100, 30), "Health: " + health);
