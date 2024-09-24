@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8008734667588098941}
   - component: {fileID: 3524800147145297162}
+  - component: {fileID: 3409606733739652162}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -51,3 +52,15 @@ MonoBehaviour:
   gold: 780
   score: 1000000
   lives: 5
+--- !u!114 &3409606733739652162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5476177820389713799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced53df76beb3d644b41b436a9fe3df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
