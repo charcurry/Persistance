@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AdjustScript : MonoBehaviour
 {
+    // Adds buttons to adjust player stats on screen
     private void OnGUI()
     {
         if (GUI.Button(new Rect(200, 10, 150, 30), "Health Up"))
